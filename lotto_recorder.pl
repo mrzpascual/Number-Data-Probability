@@ -66,7 +66,7 @@ sub readFile{
 sub sendReport{
     my $sendmail = '/usr/lib/sendmail';
     open(MAIL, "|$sendmail -oi -t");
-      print MAIL "To: markryan.pascual\@infor.com\n";
+      print MAIL "To: mrzpascual\@gmail.com\n";
       print MAIL "Subject: Number Probability Report";
       print MAIL "\n";
       foreach my $report (readFile($REPORT_FILE_LOG)){
